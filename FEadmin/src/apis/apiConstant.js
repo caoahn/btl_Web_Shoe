@@ -1,0 +1,18 @@
+export const api = {
+  getAllCategories: '/categories',
+  createCategories: '/categories',
+  deleteCategory: (id) => `/categories/${id}`,
+  updateCategory: (id) => `/categories/${id}`,
+  getCategoryId: (id) => `/categories/${id}`,
+  upLoadImages: '/upload',
+  deleteImages: '/upload/destroy',
+  getAllProducts: '/products',
+  createProducts: '/products',
+  deleteProduct: (id) => `/products/${id}`,
+  updateProduct: (id) => `/products/${id}`,
+  getProductId: (id) => `/products/${id}`,
+  login: '/auth/login',
+  register: '/auth/register',
+  getContact: '/contacts',
+  deleteContacts: (id) => `/contacts/${id}`,
+}
